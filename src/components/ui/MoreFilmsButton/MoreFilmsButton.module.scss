@@ -1,0 +1,14 @@
+.buttonWrapper{
+  display: flex;
+  text-align: center;
+  padding: 55px;
+  h3{
+    transition: 0.15s;
+  }
+}
+
+.buttonWrapper h3:hover{
+  transition: 0.15s;
+  color: var(--second-color);
+  
+}

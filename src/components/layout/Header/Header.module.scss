@@ -1,0 +1,32 @@
+.wrapper{
+  color:white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: var(--second-color);
+  margin-bottom: 20px;
+  h3{
+    font-weight: 400;
+  }
+}
+.homeLink{
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.homeLink:hover {
+  transition: 0.15s;
+  color: var(--bg-color);
+}
+.me{
+  text-decoration: none;
+  color: var(--bg-color);
+  font-weight: 500;
+}
+.me:hover{
+  text-decoration: underline;
+}

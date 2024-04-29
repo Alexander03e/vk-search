@@ -1,0 +1,17 @@
+.active{
+  background-color: white!important;
+  color: black!important;
+}
+.paginateButton {
+  background-color: transparent;
+  color:white;
+  width:30px;
+  height:30px;
+  cursor: pointer;
+  border: none;
+}
+.paginationWrapper {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 20px;
+}
