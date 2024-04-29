@@ -18,11 +18,12 @@ export const FilmsList = ({
         {isLoading
           ? Array(20)
               .fill(null)
-              .map(() => {
-                return <Preloader />;
+              .map((_, i) => {
+                return <Preloader key={i} />;
               })
           : films?.map((item) => (
               <FilmCard
+                key={item.id}
                 navigateFilm={navigateFilm}
                 id={item.id}
                 name={item.title}
