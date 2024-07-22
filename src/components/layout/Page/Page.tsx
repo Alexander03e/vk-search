@@ -4,7 +4,8 @@ export const Page: FC<PropsWithChildren> = ({ children }) => {
   return (
     <>
       <div className={styles.page}>
-        <div className="container">{children}</div>
+        <div className="container">
+          {children}</div>
       </div>
     </>
   );
