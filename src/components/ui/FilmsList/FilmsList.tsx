@@ -14,7 +14,6 @@ export const FilmsList = ({
 }) => {
   return (
     <div className={styles.wrapper}>
-      <p>test</p>
       <div className={styles.filmsWrapper}>
         {isLoading
           ? Array(20)
@@ -37,3 +36,5 @@ export const FilmsList = ({
     </div>
   );
 };
+
+
