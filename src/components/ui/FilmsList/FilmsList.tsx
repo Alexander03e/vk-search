@@ -14,24 +14,25 @@ export const FilmsList = ({
 }) => {
   return (
     <div className={styles.wrapper}>
+      <p>test</p>
       <div className={styles.filmsWrapper}>
         {isLoading
           ? Array(20)
-              .fill(null)
-              .map((_, i) => {
-                return <Preloader key={i} />;
-              })
+            .fill(null)
+            .map((_, i) => {
+              return <Preloader key={i} />;
+            })
           : films?.map((item) => (
-              <FilmCard
-                key={item.id}
-                navigateFilm={navigateFilm}
-                id={item.id}
-                name={item.title}
-                rate={item.vote_average}
-                release_date={item.release_date}
-                img_url={item.poster_path}
-              />
-            ))}
+            <FilmCard
+              key={item.id}
+              navigateFilm={navigateFilm}
+              id={item.id}
+              name={item.title}
+              rate={item.vote_average}
+              release_date={item.release_date}
+              img_url={item.poster_path}
+            />
+          ))}
       </div>
     </div>
   );
