@@ -1,21 +1,31 @@
 .active{
-  background-color: white!important;
-  color: black!important;
+    color: black!important;
+
+    background-color: white!important;
 }
+
 .paginateButton {
-  background-color: transparent;
-  color:white;
-  width:30px;
-  height:30px;
-  cursor: pointer;
-  border: none;
+    width:30px;
+    height:30px;
+
+    color:white;
+
+    cursor: pointer;
+
+    background-color: transparent;
+    border: none;
 }
+
 .paginateButton:hover{
-  background-color: white;
-  color: black;
+    color: black;
+
+    background-color: white;
 }
+
 .paginationWrapper {
-  display: flex;
-  gap: 1em;
-  margin-bottom: 20px;
+    display: flex;
+
+    gap: 1em;
+
+    margin-bottom: 20px;
 }

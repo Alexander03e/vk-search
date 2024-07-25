@@ -1,47 +1,57 @@
 :root{ 
-  --bg-color: #171717;
-  --second-color: #d95f55;   
-  --text-color: white;
+    --bg-color: #171717;
+    --second-color: #d95f55;   
+    --text-color: white;
 }
+
 *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
 }
 
 p,h1,h2,h3,h4,h5,h6, a{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
 }
 
 h2{
-  font-size: 27px;
+    font-size: 27px;
 }
+
 h3{
-  font-size: 18px;
+    font-size: 18px;
 }
+
 h4{
-  font-size: 16px;
+    font-size: 16px;
 }
+
 .container{
-  max-width: 1480px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
+    width: 100%;
+    max-width: 1480px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
+
 .content{
-  overflow-x: hidden;
-  width:100%;
-  min-height:100vh; 
-  flex-direction: column;
-  display: flex;
-  background-color: #171717;
-  width:100%;
-  padding-bottom: 50px;
+    display: flex; 
+
+    flex-direction: column;
+    width:100%;
+    min-height:100vh;
+    padding-bottom: 50px;
+
+    overflow-x: hidden;
+
+    background-color: #171717;
 }
+
 ::-webkit-scrollbar {
-  width:0;
-  background-color: transparent;
+    width:0;
+
+    background-color: transparent;
 }
 
 

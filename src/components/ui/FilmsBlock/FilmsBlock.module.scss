@@ -1,28 +1,37 @@
 .filmsBlockTitle{
-    margin-bottom: 20px;
     display: flex;
+
+    margin-bottom: 20px;
 }
+
 .filmsBlockWrapper{
-  padding-bottom: 30px;
-  overflow-x: auto;
-  overflow-y:hidden;
+    padding-bottom: 30px;
+
+    overflow: auto hidden;
 }
+
 .filmsBlockWrapper::-webkit-scrollbar{
-  width:8px;
-  height:8px;
-  scrollbar-gutter: stable;
+    width:8px;
+    height:8px;
+    scrollbar-gutter: stable;
 }
+
 .filmsBlockWrapper::-webkit-scrollbar-thumb{
-  background-color: white;
+    background-color: white;
 }
+
 .filmsBlockWrapper::-webkit-scrollbar-track{
-  background-color: transparent;
+    background-color: transparent;
 }
+
 .clickStyles{
-  cursor: pointer;
-  transition: 0.15s;
+    cursor: pointer;
+
+    transition: 0.15s;
 }
+
 .clickStyles:hover{
-  transition: 0.15s;
-  color: var(--second-color);
+    color: var(--second-color);
+
+    transition: 0.15s;
 }
